@@ -5,6 +5,8 @@
   // ao usuário; não altera identificadores, dados persistidos ou lógica do app.
   const translations = new Map(Object.entries({
     "Loading...":"Carregando...",
+    "Press F11 to exit fullscreen.":"Pressione F11 para sair da tela cheia.",
+    "No metadata available.":"Nenhum metadado disponível.",
     "Encore Karaoke":"CantaPedrao",
     "Encore Karaoke Core":"CantaPedrao",
     "Encore Library Manager":"Gerenciador da Biblioteca - CantaPedrao",
