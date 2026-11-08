@@ -7,8 +7,15 @@
     "Loading...":"Carregando...",
     "Press F11 to exit fullscreen.":"Pressione F11 para sair da tela cheia.",
     "No metadata available.":"Nenhum metadado disponível.",
+    "Press F11 to exit fullscreen.":"Pressione F11 para sair da tela cheia.",
+    "No metadata available.":"Nenhum metadado disponível.",
     "Encore Karaoke":"CantaPedrao",
     "Encore Karaoke Core":"CantaPedrao",
+    "Encore Library Manager":"Gerenciador da Biblioteca - CantaPedrao",
+    "Encore Lyric Overlay":"Exibição de Letras - CantaPedrao",
+    "Encore Setlist Overlay":"Lista de Músicas - CantaPedrao",
+    "Encore Control Panel":"Painel de Controle - CantaPedrao",
+    "Encore Cashier":"Caixa - CantaPedrao",
     "Encore Library Manager":"Gerenciador da Biblioteca - CantaPedrao",
     "Encore Lyric Overlay":"Exibição de Letras - CantaPedrao",
     "Encore Setlist Overlay":"Lista de Músicas - CantaPedrao",
@@ -502,6 +509,8 @@
 
   function start() {
     document.documentElement.lang = "pt-BR";
+    document.title = translate(document.title);
+    translateElement(document.head);
     translateElement(document.body);
     const observer = new MutationObserver(records => {
       for (const record of records) {
@@ -518,6 +527,7 @@
         }
       }
     });
+    observer.observe(document.head, { childList: true, subtree: true, characterData: true });
     observer.observe(document.body, { childList: true, subtree: true, characterData: true });
   }
 
