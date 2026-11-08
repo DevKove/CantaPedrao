@@ -145,6 +145,11 @@ Promise.all([buildMain, buildPreload, buildOS, buildWindows, buildCSS])
     if (fs.existsSync("src/index.html"))
       fs.copyFileSync("src/index.html", "dist/resources/static/index.html");
 
+    if (fs.existsSync("src/pt-BR.js")) {
+      fs.copyFileSync("src/pt-BR.js", "dist/resources/static/pt-BR.js");
+      fs.copyFileSync("src/pt-BR.js", "dist/resources/pt-BR.js");
+    }
+
     const windowsDir = "src/windows";
     if (fs.existsSync(windowsDir)) {
       fs.readdirSync(windowsDir).forEach((file) => {
