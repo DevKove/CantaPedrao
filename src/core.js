@@ -3,6 +3,7 @@
 //  By kat21 and lap  //
 ////////////////////////
 
+import "./pt-BR.js";
 import Html from "./libs/html.js";
 
 (async () => {

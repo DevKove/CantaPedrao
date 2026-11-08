@@ -64,8 +64,6 @@
     "Restore Defaults":"Restaurar padrões",
     "SELECT ROLE":"SELECIONAR PAPEL",
     "SELECT LYRIC FONT":"SELECIONAR FONTE DA LETRA",
-    "SELECT ROLE":"SELECIONAR PAPEL",
-    "SELECT SONG":"SELECIONAR MÚSICA",
     "▲ / ▼: Role | ▶ / ENTER: Swatches | ESC: Back":"▲ / ▼: Papel | ▶ / ENTER: Cores | ESC: Voltar",
     "ARROWS: Select | ENTER: Apply | ESC: Roles":"SETAS: Selecionar | ENTER: Aplicar | ESC: Papéis",
     "ENTER: Restore Defaults | ▲ / ▶: Cancel | ESC: Roles":"ENTER: Restaurar padrões | ▲ / ▶: Cancelar | ESC: Papéis",
@@ -272,8 +270,6 @@
     "🌟 Superstar!":"🌟 Superestrela!",
     "🎤 Encore!":"🎤 Mais uma!",
     "👎 Boo!":"👎 Vaia!",
-    "Guide melody":"Melodia guia",
-    "Rhythm":"Ritmo",
     "Songbook":"Catálogo de músicas",
     "Queue":"Fila",
     "Now Playing":"Em reprodução",
@@ -417,11 +413,7 @@
     "Song Selection": "Seleção de músicas",
     "Reservation Queue": "Fila de reservas",
     "Main Menu": "Menu principal",
-    "Main Audio Output": "Saída principal de áudio",
-    "Microphone Input": "Entrada do microfone",
-    "Open Setup": "Abrir configurações",
     "System Configuration": "Configuração do sistema",
-    "Exit Setup": "Sair das configurações",
     "Exit": "Sair",
     "Apply": "Aplicar",
     "Update": "Atualizar",
@@ -434,11 +426,6 @@
     "Retry": "Tentar novamente",
     "Continue": "Continuar",
     "Start": "Iniciar",
-    "Stop": "Parar",
-    "Previous": "Anterior",
-    "Next": "Próxima",
-    "Play": "Reproduzir",
-    "Pause": "Pausar",
     "Resume": "Continuar",
     "Shuffle": "Aleatório",
     "Repeat": "Repetir",
@@ -461,6 +448,106 @@
     "Time": "Hora",
     "Language": "Idioma",
     "Portuguese (Brazil)": "Português (Brasil)",
+    "PHOTOSENSITIVITY WARNING":"AVISO DE FOTOSSENSIBILIDADE",
+    "SESSIONS":"SESSÕES",
+    "Cannot join a session while a song is playing.":"Não é possível entrar em uma sessão enquanto uma música estiver em reprodução.",
+    "Please return to the Main Menu to join a session.":"Volte ao menu principal para entrar na sessão.",
+    "Insufficient credits.":"Créditos insuficientes.",
+    "Invalid app state.":"Estado inválido do aplicativo.",
+    "Not in player mode.":"O player não está ativo.",
+    "Not available for this format.":"Indisponível para este formato.",
+    "TRANSPOSE":"TRANSPOR",
+    "TEMPO":"ANDAMENTO",
+    "Rhythm is only available for MIDI songs.":"O ritmo está disponível apenas para músicas MIDI.",
+    "Could not switch rhythm.":"Não foi possível alterar o ritmo.",
+    "Use video sync for MV songs.":"Use a sincronização de vídeo para videoclipes.",
+    "Recorder unavailable.":"Gravador indisponível.",
+    "Start a song before recording.":"Inicie uma música antes de gravar.",
+    "Could not stop recording.":"Não foi possível interromper a gravação.",
+    "Recording is not available right now.":"A gravação não está disponível no momento.",
+    "RESERVED":"RESERVADO",
+    "NORMAL":"NORMAL",
+    "Original Drums":"Bateria original",
+    "Unknown Title":"Título desconhecido",
+    "Unknown Artist":"Artista desconhecido",
+    "Unknown":"Desconhecido",
+    "Auto":"Automático",
+    "FULLSCREEN":"TELA CHEIA",
+    "Open song & YouTube search":"Abrir pesquisa de músicas e YouTube",
+    "Open Reservations menu":"Abrir menu de reservas",
+    "Toggle Chorus backing vocals":"Ativar/desativar vocais de apoio",
+    "Adjust guide melody":"Ajustar melodia guia",
+    "Cycle rhythm patterns":"Alternar padrões de ritmo",
+    "Open Sessions menu":"Abrir menu de sessões",
+    "Broadcast karaoke stream":"Transmitir karaokê",
+    "Open multiplayer session chat":"Abrir bate-papo da sessão multiplayer",
+    "Need technical assistance or have feedback? Message our team directly through the official Encore Karaoke Facebook page.":"Precisa de suporte técnico ou deseja enviar uma opinião? Entre em contato com nossa equipe pela página oficial do CantaPedrao no Facebook.",
+    "Multiple Libraries Found":"Várias bibliotecas encontradas",
+    "No library detected. Open Library Manager to import a Library (LIB).":"Nenhuma biblioteca encontrada. Abra o Gerenciador da Biblioteca para importar uma biblioteca (LIB).",
+    "Loading library...":"Carregando biblioteca...",
+    "Loading sounds...":"Carregando sons...",
+    "Failed to load preferred soundfont. Proceeding with system default.":"Falha ao carregar o SoundFont selecionado. Usando o padrão do sistema.",
+    "Loading components":"Carregando componentes",
+    "Configured library not found. Falling back to search.":"A biblioteca configurada não foi encontrada. Iniciando nova busca.",
+    "Library missing. Re-evaluating...":"Biblioteca ausente. Verificando novamente...",
+    "Searching for libraries...":"Procurando bibliotecas...",
+    "Found one library. Configuring automatically...":"Uma biblioteca encontrada. Configurando automaticamente...",
+    "Multiple libraries found. Please choose one.":"Várias bibliotecas encontradas. Selecione uma.",
+    "Library detected! Loading...":"Biblioteca encontrada! Carregando...",
+    "Configuration error. Please restart the application.":"Erro de configuração. Reinicie o aplicativo.",
+    "Booting up...":"Iniciando...",
+    "Booting...":"Iniciando...",
+    "Path":"Caminho",
+    "Refreshing...":"Atualizando...",
+    "Song not found.":"Música não encontrada.",
+    "ACTIVE":"ATIVO",
+    "BREAKDOWN":"DETALHAMENTO",
+    "FEVER":"FEBRE",
+    "TONALITY":"TONALIDADE",
+    "VIBRATO":"VIBRATO",
+    "TRANSITIONS":"TRANSIÇÕES",
+    "ACCURATE":"CORRETO",
+    "INTERPRETED":"INTERPRETADO",
+    "PROBLEMATIC":"PROBLEMÁTICO",
+    "MISSED":"NÃO IDENTIFICADO",
+    "CANCEL":"CANCELAR",
+    "DELETE":"EXCLUIR",
+    "INTERLUDE":"INTERLÚDIO",
+    "CHAT":"BATE-PAPO",
+    "CHEER":"INCENTIVO",
+    "Searching...":"Pesquisando...",
+    "No songs found":"Nenhuma música encontrada",
+    "Waiting for Encore":"Aguardando CantaPedrao",
+    "The queue loads when the app is ready.":"A fila será carregada quando o aplicativo estiver pronto.",
+    "Waiting for the app to be ready...":"Aguardando o aplicativo ficar pronto...",
+    "Main Player":"Reprodutor principal",
+    "Singer":"Cantor(a)",
+    "Main Machine":"Máquina principal",
+    "Mobile User":"Usuário móvel",
+    "CONNECTED TO HOST":"CONECTADO AO TERMINAL PRINCIPAL",
+    "DISCONNECTED":"DESCONECTADO",
+    "FREE PLAY: ON":"MODO LIVRE: ATIVADO",
+    "Enable retail mode in Setup → Cashier & Credits.":"Ative o modo comercial em Configurações → Caixa e créditos.",
+    "Retail mode is disabled.":"O modo comercial está desativado.",
+    "Free play is active — songs are not charged.":"O modo livre está ativo — as músicas não são cobradas.",
+    "remaining":"restantes",
+    "song(s) remaining":"música(s) restantes",
+    "No Room PIN provided.":"PIN da sala não informado.",
+    "Please scan the QR code displayed on the TV.":"Leia o QR Code exibido na TV.",
+    "Connection failed.":"Falha na conexão.",
+    "Please ensure the host device is online.":"Verifique se o terminal principal está conectado.",
+    "Please ensure the Cloud Server is online.":"Verifique se o servidor em nuvem está conectado.",
+    "The Host Player disconnected or closed.":"O reprodutor principal foi desconectado ou fechado.",
+    "Session ended.":"Sessão encerrada.",
+    "Enter a nickname":"Digite um apelido",
+    "Press 'Tab' to cheer/chat":"Pressione 'Tab' para alternar entre incentivo e bate-papo",
+    "Start Broadcast":"Iniciar transmissão",
+    "Switch Camera":"Trocar câmera",
+    "1 CREDIT":"1 CRÉDITO",
+    "FREE":"GRÁTIS",
+    "SONG(S)":"MÚSICA(S)",
+    "MINUTE(S) OF TIME":"MINUTO(S)",
+
   }));
 
   const normalize = value => value.replace(/\s+/g, " ").trim();
@@ -487,16 +574,21 @@
       const next = translate(node.nodeValue);
       if (next !== node.nodeValue) node.nodeValue = next;
     }
-    for (const attr of ["placeholder", "title", "aria-label", "alt"]) {
-      if (element.hasAttribute(attr)) {
-        const value = element.getAttribute(attr);
+    const elements = [element, ...element.querySelectorAll("*")];
+    for (const current of elements) {
+      for (const attr of ["placeholder", "title", "aria-label", "alt"]) {
+        if (!current.hasAttribute(attr)) continue;
+        const value = current.getAttribute(attr);
         const next = translate(value);
-        if (next !== value) element.setAttribute(attr, next);
+        if (next !== value) current.setAttribute(attr, next);
       }
-    }
-    if (element instanceof HTMLInputElement && ["button", "submit", "reset"].includes(element.type)) {
-      const next = translate(element.value);
-      if (next !== element.value) element.value = next;
+      if (
+        current instanceof HTMLInputElement &&
+        ["button", "submit", "reset"].includes(current.type)
+      ) {
+        const next = translate(current.value);
+        if (next !== current.value) current.value = next;
+      }
     }
   }
 
