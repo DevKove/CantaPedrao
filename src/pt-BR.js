@@ -5,8 +5,15 @@
   // ao usuário; não altera identificadores, dados persistidos ou lógica do app.
   const translations = new Map(Object.entries({
     "Loading...":"Carregando...",
+    "Press F11 to exit fullscreen.":"Pressione F11 para sair da tela cheia.",
+    "No metadata available.":"Nenhum metadado disponível.",
     "Encore Karaoke":"CantaPedrao",
     "Encore Karaoke Core":"CantaPedrao",
+    "Encore Library Manager":"Gerenciador da Biblioteca - CantaPedrao",
+    "Encore Lyric Overlay":"Exibição de Letras - CantaPedrao",
+    "Encore Setlist Overlay":"Lista de Músicas - CantaPedrao",
+    "Encore Control Panel":"Painel de Controle - CantaPedrao",
+    "Encore Cashier":"Caixa - CantaPedrao",
     "ENCORE SYSTEM GUIDE":"GUIA DO SISTEMA",
     "Song Selection & Reservation":"Seleção e reserva de músicas",
     "Type 6-digit song number":"Digite o código de 6 dígitos da música",
