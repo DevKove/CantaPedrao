@@ -736,16 +736,21 @@
       const next = translate(node.nodeValue);
       if (next !== node.nodeValue) node.nodeValue = next;
     }
-    for (const attr of ["placeholder", "title", "aria-label", "alt"]) {
-      if (element.hasAttribute(attr)) {
-        const value = element.getAttribute(attr);
+    const elements = [element, ...element.querySelectorAll("*")];
+    for (const current of elements) {
+      for (const attr of ["placeholder", "title", "aria-label", "alt"]) {
+        if (!current.hasAttribute(attr)) continue;
+        const value = current.getAttribute(attr);
         const next = translate(value);
-        if (next !== value) element.setAttribute(attr, next);
+        if (next !== value) current.setAttribute(attr, next);
       }
-    }
-    if (element instanceof HTMLInputElement && ["button", "submit", "reset"].includes(element.type)) {
-      const next = translate(element.value);
-      if (next !== element.value) element.value = next;
+      if (
+        current instanceof HTMLInputElement &&
+        ["button", "submit", "reset"].includes(current.type)
+      ) {
+        const next = translate(current.value);
+        if (next !== current.value) current.value = next;
+      }
     }
   }
 
