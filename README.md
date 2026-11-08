@@ -1,225 +1,231 @@
 <div align="center">
-  <img alt="Encore Header" src="readme/header.png" style="border-radius: 15px; margin-bottom: 20px;" />
+  <img alt="Cabeçalho do CantaPedrao" src="readme/header.png" style="border-radius: 15px; margin-bottom: 20px;" />
 
-# Encore Karaoke Player
+# CantaPedrao — Reprodutor de Karaokê
 
-**Experience the ultimate Asian karaoke box right on your PC, with your own music!**
+**Transforme seu computador em uma central completa de karaokê, com suas próprias músicas!**
 
-![Version badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fversioning.encorekaraoke.org%2FversionInfo&query=%24.number&prefix=v&label=version&color=%2389CFF0)
-![Channel badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fversioning.encorekaraoke.org%2FversionInfo&query=%24.channel&label=channel&color=%23FFD700)
+![Versão](https://img.shields.io/badge/vers%C3%A3o-1.16.0-blue)
+![Plataforma](https://img.shields.io/badge/plataforma-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
+![Execução](https://img.shields.io/badge/execu%C3%A7%C3%A3o-offline-green)
 
 </div>
 
 <div align="center">
-  <img alt="Encore Header" src="readme/demo.jpg" style="border-radius: 15px; margin-bottom: 20px; margin-top: 20px;" />
+  <img alt="Demonstração do CantaPedrao" src="readme/demo.jpg" style="border-radius: 15px; margin-bottom: 20px; margin-top: 20px;" />
 </div>
 
 ---
 
-## Key Features
+## Recursos
 
-### Core Singing Experience
+### Experiência de karaokê
 
-- **Real-Time Scoring**
-  - With our **Forte Audio Engine** powered by the Web Audio API, Encore actively listens to your microphone.
-  - Features live pitch tracking, real-time key-modulation detection, and a visual pitch guide overlay so you know exactly when to hit those high notes (only in Multiplex & MIDI tracks).
-  - Scores your performance not just by pitch accuracy, but also rewards your expression and interpretation too!
-- **Pitch & Latency Control**
-  - Adjust pitch (transpose) and tempo on the fly.
-  - Calibrate your microphone and signal chain's latency quickly.
-- **Japanese & Korean Romanization**
-  - Love singing K-pop but can't read the language? What about your favorite anime openings? Encore automatically generates romanized lyrics for Japanese and Korean in real time.
-  - Also supports Furigana (Ruby text) for MIDI karaoke files.
+- **Pontuação em tempo real**
+  - O mecanismo de áudio **Forte**, baseado na Web Audio API, capta a voz pelo microfone.
+  - Acompanha a afinação em tempo real, detecta mudanças de tonalidade e exibe um guia visual de notas nas faixas Multiplex e MIDI compatíveis.
+  - Avalia a precisão da afinação e também a expressividade da interpretação.
+- **Controle de tom e latência**
+  - Ajuste o tom (transposição) e a velocidade da música durante a reprodução.
+  - Calibre rapidamente a latência do microfone e da cadeia de áudio.
+- **Letras em japonês e coreano**
+  - Gera romanização das letras em japonês e coreano em tempo real.
+  - Também oferece suporte a Furigana (texto auxiliar de leitura) em arquivos MIDI de karaokê.
 
-### Social & Remote Karaoke
+### Karaokê social e controle remoto
 
-- **Encore Sessions (Virtual Karaoke Rooms)**
-  - Sing with friends and family across the world with Encore Sessions! Perfect for OFWs, LDRs, or remote karaoke hangouts with friends!
-  - Queue, Cheer, and Chat in the room just like a real karaoke box.
-  - Have fun with a sprinkle of competition with a score leaderboard!
-  - Invite your friends without even having to send a link with Discord Game Invite support.
-- **EnMoku! (Mobile Remote Control)**
-  - No more passing a bulky songbook around! Just scan the QR code on the screen to connect your smartphone.
-  - No additional app installs needed! EnMoku works straight in your web browser. (Chromium-based browsers (e.g., Chrome, Edge) and Firefox)
-  - Queue tracks, send "Cheers", chat with the room, and turn your phone into a camera in one tap!
-  - Use your phone as a virtual shaker!
-  - Works seamlessly on your local network, with a Cloud tunnel fallback for devices not on the same network.
-- **Discord Rich Presence**
-  - Automatically shows what you're singing on your Discord status.
+- **Encore Sessions — salas virtuais de karaokê**
+  - Cante com amigos e familiares pela internet.
+  - Organize a fila de músicas, envie mensagens e interaja com os participantes.
+  - Divirta-se com placar e classificação de pontuações.
+  - Convide amigos por meio da integração com o Discord.
+- **EnMoku! — controle remoto pelo celular**
+  - Leia o QR Code exibido na tela para conectar seu smartphone.
+  - Não é necessário instalar aplicativo: o EnMoku funciona pelo navegador.
+  - Compatível com navegadores baseados em Chromium (como Chrome e Edge) e Firefox.
+  - Adicione músicas à fila, envie mensagens, converse e use a câmera do celular.
+  - Funciona na rede local e pode utilizar um túnel na nuvem quando os dispositivos estiverem em redes diferentes.
+- **Integração com Discord**
+  - Exibe automaticamente no status do Discord a música que está sendo cantada.
 
-### Media Support & Playback
+### Reprodução e formatos de mídia
 
-- **Versatile Media Support (MVs & Multiplex)**
-  - Supports MIDI karaoke (`.mid`, `.kar`) with SoundFont (`.sf2`, `.sf3` & `.dls`) playback.
-  - Supports audio tracks (`.mp3`, `.wav`, `.m4a`, `.ogg`) paired with `.lrc` lyrics or CDG.
-  - Supports high-quality MVs (Music Videos) (`.mp4`, `.mkv`, `.webm`, `.avi`).
-  - Full support for **Multiplex tracks** (pan left/right to toggle the guide vocal).
-- **Native YouTube Integration**
-  - Don't have a song in your library? Search YouTube directly from the player or your phone and queue it up instantly.
+- **Suporte a diferentes formatos**
+  - Karaokê MIDI: `.mid` e `.kar`, com SoundFonts `.sf2`, `.sf3` e `.dls`.
+  - Áudio: `.mp3`, `.wav`, `.m4a` e `.ogg`, com letras `.lrc` ou CDG.
+  - Vídeos musicais: `.mp4`, `.mkv`, `.webm` e `.avi`.
+  - Faixas **Multiplex**, com controle dos canais para alternar entre voz guia e instrumental.
+- **Integração com YouTube**
+  - Pesquise músicas diretamente pelo reprodutor ou pelo celular e adicione-as à fila.
 
-### Recording, Streaming & Creator Tools
+### Gravação, transmissão e ferramentas para criadores
 
-- **Instant Recording**
-  - Record your best vocal performances directly to your hard drive with the press of a button.
-- **Live Streaming with RTMP**
-  - Live stream your karaoke sessions to your fans directly inside of Encore!
-- **Built-in OBS Overlays**
-  - Comes with a setlist overlay, so you don't have to alt-tab to update your queue!
-  - Comes with a lyric overlay, so your viewers can sing along with you!
-- **OBS Scene Automation**
-  - Switch to different OBS scenes automatically as you go through your karaoke session.
+- **Gravação instantânea**
+  - Grave suas apresentações diretamente no computador.
+- **Transmissão ao vivo por RTMP**
+  - Transmita suas sessões de karaokê.
+- **Sobreposições para OBS**
+  - Exiba a fila de músicas e as letras na transmissão.
+- **Automação de cenas do OBS**
+  - Alterne automaticamente as cenas durante a sessão.
 
 ---
 
-# Getting Started
+## Primeiros passos
 
-## Library Setup
+### Configuração da biblioteca de músicas
 
 > [!WARNING]
-> Due to copyright restrictions, Encore does not come with a Library by default. Learn more on how you can make your own libraries below, or contact us at [sky@encorekaraoke.org](mailto:sky@encorekaraoke.org).
+> Por restrições de direitos autorais, o programa não inclui uma biblioteca de músicas. Você deve adicionar seus próprios arquivos, respeitando a legislação aplicável.
 
-Encore automatically scans your local drives for a folder named **`EncoreLibrary`**, or you can use the Library Manager to import your library.
+O programa procura automaticamente, nas unidades locais, uma pasta chamada **`EncoreLibrary`**. Você também pode importar uma pasta pelo Gerenciador de Biblioteca.
 
 <div align="center">
-  <img alt="Encore Library Manager" src="readme/library-manager.jpg" style="border-radius: 15px; margin-bottom: 20px; margin-top: 20px;" />
+  <img alt="Gerenciador de biblioteca" src="readme/library-manager.jpg" style="border-radius: 15px; margin-bottom: 20px; margin-top: 20px;" />
 </div>
 
-To build your library, structure your files like this:
+Organize os arquivos da biblioteca seguindo este exemplo:
 
 ```text
-D:/EncoreLibrary/                                             # Should work for any folder
- ├── manifest.json                                            # Metadata and BGV (Background Video) configs
- ├── [Your Artist] - [Song].mp3                               # Audio file (Compatible with ID3 tags)
- ├── [Your Artist] - [Song].lrc/.mid                          # Matching LRC lyrics file (or MIDI guide)
- ├── [Your Artist] - [Song].cdg                               # or matching CDG file
- ├── [Your Artist] - [Song].mp4                               # Video files for MTV
- ├── [Your Artist] - [Song].mid/.kar                          # MIDI files
- └── [Your Artist] - [Song].chorus.ogg                        # Backing vocals for MIDI files (OGG is recommended)
+D:/EncoreLibrary/                                      # Pasta da biblioteca (pode ter outro nome)
+ ├── manifest.json                                     # Metadados e configurações de vídeos de fundo
+ ├── [Artista] - [Música].mp3                          # Arquivo de áudio (compatível com etiquetas ID3)
+ ├── [Artista] - [Música].lrc/.mid                     # Letra LRC correspondente ou guia MIDI
+ ├── [Artista] - [Música].cdg                          # Arquivo CDG correspondente (opcional)
+ ├── [Artista] - [Música].mp4                           # Vídeo musical
+ ├── [Artista] - [Música].mid/.kar                     # Arquivo MIDI
+ └── [Artista] - [Música].chorus.ogg                   # Vozes de apoio para MIDI (OGG recomendado)
 ```
 
-_Note: For Multiplex tracks (where vocals are on one channel and instrumentals on the other), add `.multiplexed.` to the filename before the extension (e.g., `Song.multiplexed.mp3`)._
+**Observação:** em faixas Multiplex, nas quais a voz e o instrumental ficam em canais separados, inclua `.multiplexed.` no nome do arquivo antes da extensão. Exemplo: `Musica.multiplexed.mp3`.
 
 ---
 
-## Controls & Shortcuts
+## Controles e atalhos
 
-Encore can be fully controlled via a standard keyboard or through EnMoku.
+O programa pode ser controlado pelo teclado ou pelo EnMoku.
 
-| Key             | Action                                                     |
-| :-------------- | :--------------------------------------------------------- |
-| `0-9`           | Type song code to reserve/play                             |
-| `Enter`         | Confirm reservation / Play highlighted song                |
-| `Escape`        | Stop playback / Clear input / Go back                      |
-| `Space`         | Pause playback                                             |
-| `L`             | Open Lyric Customization menu                              |
-| `Y`             | Open Search Menu (Local + YouTube)                         |
-| `Q`             | Open Reservation List                                      |
-| `M`             | Open Mixer (Adjust Mic & Music levels)                     |
-| `R`             | Toggle recording (during playback) / View recordings       |
-| `S`             | Open Encore Sessions menu                                  |
-| `B`             | Open Broadcast menu                                        |
-| `T`             | Chat (In a session)                                        |
-| `C`             | Toggle Chorus on/off                                       |
-| `- / =`         | Adjust volume                                              |
-| `Shift + - / =` | Adjust mic monitoring volume                               |
-| `Up / Down`     | Tranpose up/down (Playback) / Scroll song list (Main menu) |
-| `Left / Right`  | Multiplex pan (Toggle guide vocal on/off)                  |
-| `' / "`         | Change drum presets                                        |
-| `[ / ]`         | Cycle background videos (BGVs) / Video sync offset         |
-| `F2`            | Enter Setup Mode (in main menu)                            |
-
----
-
-## Configuration & Setup Mode
-
-Pressing **`F2`** in the Main Menu will put you into **Setup Mode**. Setup Mode is a PIN-protected (default: `0000`) menu that allows you to:
-
-- Change your target Library path.
-- Select the specific Microphone (Input) and Speaker (Output) hardware.
-- Change the SoundFont and MIDI device outputs
-- Adjust Master Volume and Mic Latency overrides.
-- Calibrate Video Sync offsets.
-- Set a full-screen idle greeting message for your karaoke business.
-- Change the Security PIN (Recommended).
+| Tecla | Ação |
+| :--- | :--- |
+| `0–9` | Digitar o código da música para reservar ou reproduzir |
+| `Enter` | Confirmar a reserva ou reproduzir a música selecionada |
+| `Escape` | Parar a reprodução, limpar a entrada ou voltar |
+| `Espaço` | Pausar ou continuar a reprodução |
+| `L` | Abrir a personalização das letras |
+| `Y` | Abrir a pesquisa de músicas locais e do YouTube |
+| `Q` | Abrir a fila de reservas |
+| `M` | Abrir o mixer e ajustar os volumes do microfone e da música |
+| `R` | Iniciar/parar a gravação ou consultar gravações |
+| `S` | Abrir o menu de sessões |
+| `B` | Abrir o menu de transmissão |
+| `T` | Abrir o bate-papo durante uma sessão |
+| `C` | Ativar ou desativar o vocal de apoio |
+| `-` / `=` | Diminuir ou aumentar o volume |
+| `Shift + - / =` | Ajustar o volume de monitoração do microfone |
+| `Seta para cima / baixo` | Alterar o tom durante a reprodução ou navegar pela lista |
+| `Seta para esquerda / direita` | Alternar o canal de voz guia nas faixas Multiplex |
+| `'` / `"` | Alterar os padrões de bateria |
+| `[` / `]` | Alternar vídeos de fundo ou ajustar a sincronização do vídeo |
+| `F2` | Entrar no modo de configurações (no menu principal) |
 
 ---
 
-## Development & Running Locally
+## Configurações do sistema
 
-### Installing
+Pressione **`F2`** no menu principal para acessar o **Modo de Configuração**. O acesso é protegido por PIN (padrão: `0000`). Nesse menu, você pode:
 
-> [!NOTE]
-> Versions **1.0.0 to 1.3.1** are supported on Windows. Versions **1.4.0** and above support Linux and versions **1.10** and above support MacOS.
+- Alterar o caminho da biblioteca de músicas.
+- Selecionar o microfone (entrada) e os alto-falantes (saída).
+- Configurar o SoundFont e os dispositivos de saída MIDI.
+- Ajustar o volume geral e a compensação de latência do microfone.
+- Calibrar a sincronização do vídeo.
+- Definir uma mensagem de boas-vindas para a tela de espera.
+- Alterar o PIN de segurança (recomendado).
 
-Ready-to-use installers are available on the [Releases](https://github.com/Encore-Karaoke-Labs/Encore-Karaoke/releases) page.
+---
 
-### Building
+## Instalação e execução para desenvolvimento
 
-1. **Clone the repository:**
+### Instaladores
+
+Os instaladores e pacotes publicados podem ser consultados na página de [Versões do CantaPedrao](https://github.com/DevKove/CantaPedrao/releases).
+
+### Requisitos para compilar
+
+- Node.js e npm.
+- Git.
+- Dependências do projeto instaladas.
+
+### Compilar e executar
+
+1. **Clonar o repositório:**
 
    ```bash
-   git clone https://github.com/Encore-Karaoke-Labs/Encore-Karaoke.git
-   cd Encore-Karaoke
+   git clone https://github.com/DevKove/CantaPedrao.git
+   cd CantaPedrao
    ```
 
-2. **Install dependencies:**
+2. **Instalar as dependências:**
 
    ```bash
-   npm i
+   npm install
    ```
 
-3. **Run the app:**
+3. **Executar em modo de desenvolvimento:**
 
    ```bash
    npm run start
    ```
 
-4. **Build the app on your platform:**
+4. **Gerar os pacotes para a plataforma atual:**
 
    ```bash
    npm run make
    ```
 
-_To run in full-screen Kiosk mode (which disables Windows Explorer that may improve performance), pass the `--kiosk` flag._
+**Modo quiosque:** para iniciar em tela cheia e desativar o Windows Explorer quando aplicável, utilize o parâmetro `--kiosk`.
 
-### Contributing
+### Contribuição
 
-**Please refer to our [Contributing](CONTRIBUTING.md) document for more information about contributing.**
+Consulte o documento [CONTRIBUTING.md](CONTRIBUTING.md) para obter orientações sobre como contribuir com o projeto.
 
-For the best experience contributing towards Encore, we recommend using [Visual Studio Code](https://code.visualstudio.com) with the Prettier extension.
+Para uma melhor experiência de desenvolvimento, recomendamos o [Visual Studio Code](https://code.visualstudio.com) com a extensão Prettier.
 
 ---
 
-# Credits & Acknowledgments
+## Créditos e agradecimentos
 
-## Awesome libraries that make Encore possible
+### Bibliotecas e projetos utilizados
 
-- **Underlying framework**: [Cherry Tree / Terebi](https://github.com/terebiorg/terebi)
-- **Audio Playback**:
-  - ID3 metadata support is powered by [jsmediatags](https://github.com/aadsm/jsmediatags).
-  - MIDI playback is powered by [SpessaSynth](https://github.com/spessasus/SpessaSynth).
-  - Pitch detection is handled by [Pitchy](https://github.com/ianprime0509/pitchy).
-  - Key detection by [Meyda](https://meyda.js.org/).
-- **Romanization**:
-  - Japanese transliteration powered by [Kuroshiro](https://kuroshiro.org/).
-  - Korean transliteration powered by [Aromanize](https://github.com/fujaru/aromanize-js/).
-- **Discord RPC**: [discord-rpc](https://github.com/xhayper/discord-rpc).
+- **Estrutura principal:** [Cherry Tree / Terebi](https://github.com/terebiorg/terebi).
+- **Reprodução de áudio:**
+  - Metadados ID3: [jsmediatags](https://github.com/aadsm/jsmediatags).
+  - Reprodução MIDI: [SpessaSynth](https://github.com/spessasus/SpessaSynth).
+  - Detecção de afinação: [Pitchy](https://github.com/ianprime0509/pitchy).
+  - Detecção de tonalidade: [Meyda](https://meyda.js.org/).
+- **Romanização:**
+  - Japonês: [Kuroshiro](https://kuroshiro.org/).
+  - Coreano: [Aromanize](https://github.com/fujaru/aromanize-js/).
+- **Integração com Discord:** [discord-rpc](https://github.com/xhayper/discord-rpc).
 
-## Cool people that made Encore great!
+### Pessoas que contribuíram para o projeto original
 
-- **[Stariix](https://www.youtube.com/@Stariixy)**:
-  - 3D BGV development
-  - Voice provider for Encore's score sounds
-  - Creator and designer behind Encore's mascots, Akiyama Hoshi & Kurayami Kai
-- **[MTSyntho](https://github.com/MTSyntho)**
-  - Provided resources for Linux support
-- **[prjoni99](https://github.com/prjoni99)**:
-  - Provided resouces for Mac support
-  - Indicated the app's first potential security flaws
-- **[Spessasus](https://github.com/spessasus/)**:
-  - Creator of SpessaSynth, the synthesizer that powers Encore
-  - Has provided code suggestions & deeper insights to SpessaSynth
-- **[Objecty](https://www.youtube.com/@objecty)**:
-  - Designer behind Encore's format indicators
-- **[Lap](https://github.com/ItsLap)** & **[Kat21](https://github.com/datkat21)**
-  - Creators of the Cherry Tree core, the underlying framework running Encore
+- **[Stariix](https://www.youtube.com/@Stariixy):**
+  - Desenvolvimento dos vídeos de fundo em 3D.
+  - Vozes utilizadas nos efeitos sonoros de pontuação.
+  - Criação e design dos mascotes Akiyama Hoshi e Kurayami Kai.
+- **[MTSyntho](https://github.com/MTSyntho):** recursos para suporte ao Linux.
+- **[prjoni99](https://github.com/prjoni99):**
+  - Recursos para suporte ao macOS.
+  - Identificação de possíveis falhas de segurança iniciais.
+- **[Spessasus](https://github.com/spessasus/):**
+  - Criador do SpessaSynth, sintetizador utilizado pelo programa.
+  - Sugestões de código e contribuições técnicas para o SpessaSynth.
+- **[Objecty](https://www.youtube.com/@objecty):** design dos indicadores de formato.
+- **[Lap](https://github.com/ItsLap)** e **[Kat21](https://github.com/datkat21):** criadores do núcleo Cherry Tree, estrutura que serve de base ao programa.
+
+---
+
+## Idioma
+
+Este README está em **português do Brasil (pt-BR)**. A tradução desta documentação não significa que toda a interface do programa já esteja traduzida.
