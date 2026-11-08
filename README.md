@@ -3,10 +3,10 @@
 
 # CantaPedrao — Reprodutor de Karaokê
 
-**Transforme seu computador em uma central completa de karaokê, com suas próprias músicas!**
+**Tenha uma experiência completa de karaokê asiático diretamente no seu computador, usando suas próprias músicas!**
 
 ![Versão](https://img.shields.io/badge/vers%C3%A3o-1.16.0-blue)
-![Plataforma](https://img.shields.io/badge/plataforma-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
+![Plataformas](https://img.shields.io/badge/plataformas-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
 ![Execução](https://img.shields.io/badge/execu%C3%A7%C3%A3o-offline-green)
 
 </div>
@@ -17,57 +17,78 @@
 
 ---
 
-## Recursos
+## Principais recursos
 
-### Experiência de karaokê
+### Experiência de canto
 
-- **Pontuação em tempo real**
-  - O mecanismo de áudio **Forte**, baseado na Web Audio API, capta a voz pelo microfone.
-  - Acompanha a afinação em tempo real, detecta mudanças de tonalidade e exibe um guia visual de notas nas faixas Multiplex e MIDI compatíveis.
-  - Avalia a precisão da afinação e também a expressividade da interpretação.
-- **Controle de tom e latência**
-  - Ajuste o tom (transposição) e a velocidade da música durante a reprodução.
-  - Calibre rapidamente a latência do microfone e da cadeia de áudio.
-- **Letras em japonês e coreano**
-  - Gera romanização das letras em japonês e coreano em tempo real.
-  - Também oferece suporte a Furigana (texto auxiliar de leitura) em arquivos MIDI de karaokê.
+#### Pontuação em tempo real
+
+- O mecanismo de áudio **Forte**, baseado na Web Audio API, capta a voz pelo microfone.
+- Acompanha a afinação em tempo real, detecta mudanças de tonalidade e exibe um guia visual de notas para ajudar você a alcançar as notas certas. Disponível em faixas Multiplex e MIDI compatíveis.
+- Avalia não apenas a precisão da afinação, mas também a expressividade e a interpretação.
+
+#### Controle de tom e latência
+
+- Ajuste o tom (transposição) e o andamento da música durante a reprodução.
+- Calibre rapidamente a latência do microfone e de toda a cadeia de áudio.
+
+#### Romanização em japonês e coreano
+
+- Cante músicas em japonês e coreano mesmo sem conhecer os sistemas de escrita: o programa gera a romanização das letras em tempo real.
+- Também oferece suporte a Furigana (texto auxiliar de leitura) em arquivos MIDI de karaokê.
 
 ### Karaokê social e controle remoto
 
-- **Encore Sessions — salas virtuais de karaokê**
-  - Cante com amigos e familiares pela internet.
-  - Organize a fila de músicas, envie mensagens e interaja com os participantes.
-  - Divirta-se com placar e classificação de pontuações.
-  - Convide amigos por meio da integração com o Discord.
-- **EnMoku! — controle remoto pelo celular**
-  - Leia o QR Code exibido na tela para conectar seu smartphone.
-  - Não é necessário instalar aplicativo: o EnMoku funciona pelo navegador.
-  - Compatível com navegadores baseados em Chromium (como Chrome e Edge) e Firefox.
-  - Adicione músicas à fila, envie mensagens, converse e use a câmera do celular.
-  - Funciona na rede local e pode utilizar um túnel na nuvem quando os dispositivos estiverem em redes diferentes.
-- **Integração com Discord**
-  - Exibe automaticamente no status do Discord a música que está sendo cantada.
+#### Encore Sessions — salas virtuais de karaokê
+
+- Cante com amigos e familiares pela internet, mesmo à distância.
+- Organize a fila de músicas, envie mensagens e interaja com os participantes.
+- Divirta-se com placar e classificação de pontuações.
+- Convide amigos pela integração com o Discord, sem precisar enviar um link manualmente.
+
+#### EnMoku! — controle remoto pelo celular
+
+- Leia o QR Code exibido na tela para conectar seu smartphone.
+- Não é necessário instalar aplicativo: o EnMoku funciona diretamente no navegador. Compatível com navegadores baseados em Chromium (como Chrome e Edge) e Firefox.
+- Adicione músicas à fila, envie mensagens, interaja com a sala e use a câmera do celular.
+- Transforme o celular em um instrumento virtual de percussão (shaker).
+- Funciona na rede local e pode utilizar um túnel na nuvem quando os dispositivos estiverem em redes diferentes.
+
+#### Integração com Discord
+
+- Exibe automaticamente no status do Discord a música que está sendo cantada.
 
 ### Reprodução e formatos de mídia
 
-- **Suporte a diferentes formatos**
-  - Karaokê MIDI: `.mid` e `.kar`, com SoundFonts `.sf2`, `.sf3` e `.dls`.
-  - Áudio: `.mp3`, `.wav`, `.m4a` e `.ogg`, com letras `.lrc` ou CDG.
-  - Vídeos musicais: `.mp4`, `.mkv`, `.webm` e `.avi`.
-  - Faixas **Multiplex**, com controle dos canais para alternar entre voz guia e instrumental.
-- **Integração com YouTube**
-  - Pesquise músicas diretamente pelo reprodutor ou pelo celular e adicione-as à fila.
+#### Suporte a diferentes formatos
+
+- **Karaokê MIDI:** arquivos `.mid` e `.kar`, com SoundFonts `.sf2`, `.sf3` e `.dls`.
+- **Áudio:** arquivos `.mp3`, `.wav`, `.m4a` e `.ogg`, acompanhados de letras `.lrc` ou arquivos CDG.
+- **Vídeos musicais:** arquivos `.mp4`, `.mkv`, `.webm` e `.avi`.
+- **Faixas Multiplex:** suporte ao controle dos canais esquerdo e direito para alternar entre voz guia e instrumental.
+
+#### Integração nativa com YouTube
+
+- Pesquise músicas diretamente pelo reprodutor ou pelo celular e adicione os resultados à fila de reprodução.
 
 ### Gravação, transmissão e ferramentas para criadores
 
-- **Gravação instantânea**
-  - Grave suas apresentações diretamente no computador.
-- **Transmissão ao vivo por RTMP**
-  - Transmita suas sessões de karaokê.
-- **Sobreposições para OBS**
-  - Exiba a fila de músicas e as letras na transmissão.
-- **Automação de cenas do OBS**
-  - Alterne automaticamente as cenas durante a sessão.
+#### Gravação instantânea
+
+- Grave suas apresentações vocais diretamente no computador com apenas um comando.
+
+#### Transmissão ao vivo por RTMP
+
+- Transmita suas sessões de karaokê diretamente pelo programa.
+
+#### Sobreposições para OBS
+
+- Exiba a fila de músicas na transmissão, sem precisar alternar entre janelas para atualizá-la.
+- Utilize uma sobreposição com as letras para que o público possa cantar junto.
+
+#### Automação de cenas do OBS
+
+- Alterne automaticamente as cenas do OBS durante a sessão de karaokê.
 
 ---
 
@@ -76,15 +97,15 @@
 ### Configuração da biblioteca de músicas
 
 > [!WARNING]
-> Por restrições de direitos autorais, o programa não inclui uma biblioteca de músicas. Você deve adicionar seus próprios arquivos, respeitando a legislação aplicável.
+> Por restrições de direitos autorais, o CantaPedrao não inclui uma biblioteca de músicas. Você deve adicionar seus próprios arquivos, respeitando a legislação aplicável.
 
-O programa procura automaticamente, nas unidades locais, uma pasta chamada **`EncoreLibrary`**. Você também pode importar uma pasta pelo Gerenciador de Biblioteca.
+O programa procura automaticamente, nas unidades locais, uma pasta chamada **`EncoreLibrary`**. Você também pode importar uma pasta pelo **Gerenciador de Biblioteca**.
 
 <div align="center">
   <img alt="Gerenciador de biblioteca" src="readme/library-manager.jpg" style="border-radius: 15px; margin-bottom: 20px; margin-top: 20px;" />
 </div>
 
-Organize os arquivos da biblioteca seguindo este exemplo:
+Para montar sua biblioteca, organize os arquivos seguindo este exemplo:
 
 ```text
 D:/EncoreLibrary/                                      # Pasta da biblioteca (pode ter outro nome)
@@ -119,7 +140,7 @@ O programa pode ser controlado pelo teclado ou pelo EnMoku.
 | `S` | Abrir o menu de sessões |
 | `B` | Abrir o menu de transmissão |
 | `T` | Abrir o bate-papo durante uma sessão |
-| `C` | Ativar ou desativar o vocal de apoio |
+| `C` | Ativar ou desativar as vozes de apoio |
 | `-` / `=` | Diminuir ou aumentar o volume |
 | `Shift + - / =` | Ajustar o volume de monitoração do microfone |
 | `Seta para cima / baixo` | Alterar o tom durante a reprodução ou navegar pela lista |
@@ -139,7 +160,7 @@ Pressione **`F2`** no menu principal para acessar o **Modo de Configuração**. 
 - Configurar o SoundFont e os dispositivos de saída MIDI.
 - Ajustar o volume geral e a compensação de latência do microfone.
 - Calibrar a sincronização do vídeo.
-- Definir uma mensagem de boas-vindas para a tela de espera.
+- Definir uma mensagem de boas-vindas em tela cheia para a tela de espera do seu estabelecimento.
 - Alterar o PIN de segurança (recomendado).
 
 ---
@@ -148,7 +169,10 @@ Pressione **`F2`** no menu principal para acessar o **Modo de Configuração**. 
 
 ### Instaladores
 
-Os instaladores e pacotes publicados podem ser consultados na página de [Versões do CantaPedrao](https://github.com/DevKove/CantaPedrao/releases).
+Os instaladores e pacotes prontos para uso estão disponíveis na página de [Versões do CantaPedrao](https://github.com/DevKove/CantaPedrao/releases).
+
+> [!NOTE]
+> As versões de 1.0.0 a 1.3.1 são compatíveis com Windows. A partir da versão 1.4.0, há suporte a Linux. O suporte a macOS está disponível a partir da versão 1.10.0.
 
 ### Requisitos para compilar
 
